@@ -8,7 +8,7 @@ const loveText = document.getElementById("loveText");
 const typeTitle = document.getElementById("typeTitle");
 
 // PAS DIT AAN
-const YOUR_EMAIL = "jij@example.com";
+const YOUR_EMAIL = "felix.marfo@outlook.com";
 
 /* Title woord voor woord */
 function typeWords(el, text, delay = 260) {
@@ -124,3 +124,4 @@ window.addEventListener("load", () => {
 });
 
 window.addEventListener("resize", placeNoNextToYes);
+

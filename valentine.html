@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vraag</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="page" id="page">
+    <div class="center card">
+      <h1 class="title" id="typeTitle"></h1>
+      <p class="sub">Eerlijk antwoord graag.</p>
+
+      <div class="choice-row" style="margin-top: 24px;">
+        <button id="yesBtn" class="btn yes equal">Yes</button>
+      </div>
+
+      <p class="small" style="margin-top: 16px;">
+        Tip: je kan proberen, maar hij werkt tegen.
+      </p>
+    </div>
+
+    <button id="noBtn" class="btn equal no-float" type="button">No</button>
+  </main>
+
+  <div class="popup" id="popup">
+    <div class="box popup-box">
+      <h2 style="margin: 0 0 10px;">Yes! 💖</h2>
+
+      <p class="small popup-text" id="loveText" style="margin: 0 0 14px;"></p>
+
+      <p class="small" style="margin: 0 0 14px; opacity: 0.9;">
+        Ik zet nu een mailtje voor je klaar.
+      </p>
+
+      <button class="btn yes" id="closePopup" type="button">Oké</button>
+    </div>
+  </div>
+
+  <script src="js/valentine.js"></script>
+</body>
+</html>
